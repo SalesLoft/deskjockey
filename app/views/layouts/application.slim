@@ -57,6 +57,7 @@ html
 
         $("#zopim-chat").on("click", function(event) {
           event.preventDefault();
+          $zopim.livechat.window.hide();
           $zopim.livechat.window.openPopout();
         });
       });
