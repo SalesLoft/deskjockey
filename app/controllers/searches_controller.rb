@@ -13,7 +13,7 @@ class SearchesController < ApplicationController
   end
 
   def search_params
-    params.slice(:query, :category).merge(per_page: search_limit)
+    params.slice(:query, :label_names).merge(per_page: search_limit)
   end
 
   def search_results

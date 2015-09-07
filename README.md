@@ -69,7 +69,7 @@ if (typeof window.zdWidget !== "undefined") {
   zdWidget.init({
     name:     "<%= current_user.name %>",
     email:    "<%= current_user.email %>",
-    category: 1234567890,
+    label_names: "some label name",
     fields:   {
       1234567890: "some value"
     }
@@ -78,7 +78,5 @@ if (typeof window.zdWidget !== "undefined") {
 These are the fields taken in:
 - `name` - The requester's name.
 - `email` - The requester's email address.
-- `category` - (optional) The ID of the help center category to limit your searches to.
+- `label_names` - (optional) The label name attached to the articles you want to limit your searches to.
 - `fields` - (optional) A object of custom fields to set on the ticket. The key is the ID of the field, and the value is the value.
-
-
