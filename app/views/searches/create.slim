@@ -6,7 +6,7 @@ h4.search-heading Here's what we found:
       .result-title = result["title"]
       .result-body = truncate strip_tags(result["body"]), length: 100, separator: " ", escape: false
 
-a.btn.btn-default href=new_search_path(params.slice(:category)) Go back
+a.btn.btn-default href=new_search_path(params.slice(:label_names)) Go back
 .pull-right
   - if session[:chat]
     a#zopim-chat.btn.btn-primary href="mailto:#{ENV['ZENDESK_EMAIL']}" Live Chat
