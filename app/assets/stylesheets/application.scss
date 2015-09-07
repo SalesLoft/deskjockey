@@ -85,3 +85,14 @@ body {
   text-align: center;
 
 }
+
+.pull-right {
+  a:not(:last-child) {
+    margin-right: 1em;
+  }
+}
+
+#zopim-chat {
+  color: white;
+  font-weight: bold;
+}
