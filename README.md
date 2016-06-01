@@ -20,7 +20,7 @@ First, set up and run this Rails project somewhere. It does not need a database 
 Then, include the tag to load the javascript and give it a link to click (you can style this link to your liking):
 ```html
 <script id="zdWidgetScript" type="text/javascript" src="http://myzdwidgetapp.herokuapp.com/widget.js"></script>
-<div id="zdOpenWidget"><img src="/images/support.png"></div>
+<div id="zd-open-widget"><img src="/images/support.png"></div>
 ```
 There is some required CSS so the widget modal can be shown. This is formatted as SCSS:
 ```scss
